@@ -38,3 +38,10 @@ docker push us-central1-docker.pkg.dev/optimize-serverless-apps/workstations/cus
 *Configure the Cloud Workstations Configuration*
 - [documentation](https://cloud.google.com/workstations)
 - for Native Java images, allocate a larger size machine for increased performance
+
+*Demo 
+
+- Cloud workstation: Once image is built import it to cloud code, and turn on the image via the gcp console ui 
+- Port forwarding: https://kubernetes.io/docs/tasks/access-application-cluster/port-forward-access-application-cluster/ 
+- Cloud code IDE experience: Vscode in cloud workstation and utilize cloud code plugin
+- Connect gateway: https://cloud.google.com/kubernetes-engine/enterprise/multicluster-management/gateway/using
